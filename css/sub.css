@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* ///헤더 밑 광고 & 네비게이션///  */
+#upper-banner {width:100%; height:59px;}
+#location {width:100%; height:41px;}
+
+/* ///sub 상단/// */
+.upper-sub {width:1200px; height:auto; margin:0 auto; border:1px solid purple;}
+
+/* 상품설명 섹션 */
+.upper-main {width:100%; height:745px; background-color: aqua;}
+
+/* 광고표시 섹션 */
+.upper-ad {width:100%; height:100px; margin:30px 0; background-color: blue;}
+
+/* 추천도서 섹션 */
+.upper-recommend {width:100%; height:400px; background-color: skyblue;}
+
+/* ///중간 네비게이션/// */
+#detail-nav {position: relative; height:60px; margin-top:30px;}
+
+/* ///sub 하단/// */
+#lower-sub {width:100%; height:10000px;  padding: 30px 0;}
+.lower-sub {width:1200px; height:10000px;  margin:0 auto; border:1px solid purple;}
+
+/* 하단부 오른쪽 영역 */
+.lower-right {width:220px; height:1000px; float:right; background-color: aqua;}
+
+/* //하단부 왼쪽 영역// */
+.lower-left {width:940px; float:left;}
+.lower-left > div:not(.lower-item-info) {margin-top:30px;}
+
+/* 품목정보 영역 */
+
+.item-info-text {height:50px; line-height: 30px; padding-bottom:15px;}
+.item-info-text > h3 {font-size: 20px; font-weight: bold;}
+.info-table {width:940px; height:164px; border-top:1px solid #d8d8d8; border-bottom:1px solid #d8d8d8; font-size: 12px;}
+.info-table-tr { border-bottom: 1px solid #d8d8d8; }
+.info-table-tr:last-child {border:0;}
+.info-table-tr > th {border-right:1px solid #d8d8d8; padding:12px 0; background-color: #f8f8f8; font-weight: 700;}
+.info-table-tr > td { padding-left:5px; color:#666;}
+
+/* 관련분류 영역 */
+.lower-classification {border-bottom:1px solid #d8d8d8;}
+.classification-title {height:50px; line-height:30px; padding-top:15px;}
+.classification-title > h3 {font-size: 20px; font-weight: bold;}
+.classification-main > h4 {height:40px; line-height: 20px; font-size: 14px; color:#333;}
+.classification-ul {list-style: circle; margin-bottom:40px;}
+.classification-ul > li {font-size: 12px; margin-left:20px; padding-bottom:10px;}
+.classification-ul > li > a {color:#333; display: block; float:left;}
+.classification-ul > li > a:hover {text-decoration: underline;}
+.right-arrow {font-size: 10px; color:#666; display: block; margin:0 5px; float:left;}
+
+/* 이 상품의 이벤트 영역 */
+.lower-this-event {height:330px; padding-bottom:30px; border:1px solid #d8d8d8; position: relative; overflow: hidden;}
+.this-event-text {width:940px; height:50px; line-height: 30px; padding-top: 15px;}
+.this-event-text > h3 {font-size: 20px; font-weight: bold; display: inline-block; margin-right:10px;}
+.this-event-main {width:940px; height:260px;}
+.this-event-main-li {width:940px; height:130px; padding-bottom:10px;}
+.this-event-main-li:last-child {margin-bottom:0;}
+.this-event-main-content {width:458px; height:130px; float:left; margin-right:10px;}
+.main-content-img {width:140px; height:85px; float:left; margin-right:10px;}
+.main-content-img > a > img {width:100%; height:100%;}
+.main-content-marking {width:300px; float:right; margin-bottom:10px;}
+.event-content-mark {float:left; font-size:12px; line-height: 16px; color:#666; background-color: #f8f8f8; border: 1px solid #d8d8d8; margin-right:5px; padding:1px 3px;}
+
+.main-content-text {width:300px; float:right; text-align: left;}
+.main-content-text > p {font-size:12px; line-height: 16px;}
+.event-content-title {font-weight: 700; margin-bottom:5px;}
+.event-content-content {margin-bottom:5px;}
+.event-content-date {color:#666;}
+
+.this-event-button {width:940px; height:20px; position:absolute; bottom:0px; left:0px; right:0px; cursor: pointer; text-align: right; background-color: white;}
+.this-event-button > p {font-size: 12px; color:#6699cc; display: inline-block;}
+.UpDown-btn {font-size: 12px; color:#999; transform: rotate(90deg); display: inline-block; margin:0 5px;}
+
+/* 카드뉴스로 보는 책 영역 */
+.lower-card-news {width:940px; height:515px; position: relative;}
+.card-news-text {width:700px; height:50px; line-height: 30px; padding-top:15px; display: block; float: left;}
+.card-news-text > h3 {font-size:20px; font-weight: bold;}
+.card-news-num {width:40px; height:50px; font-size:12px; padding-top:15px; position: absolute; top:0px; right:0px;}
+.card-news-button {width:940px; height:50px; z-index: 2; position: absolute; top:228px; left:0px;}
+.card-news-prev {width:50px; height:50px; background-color: #666; opacity: 0.5; font-size: 30px; color:white; padding: 5px 0 0 10px; float: left; cursor: pointer;}
+.card-news-next {width:50px; height:50px; background-color: #666; opacity: 0.5; font-size: 30px; color:white; padding: 5px 0 0 15px; float:right; cursor: pointer;}
+
+.card-news-content {width:940px; height:463px; position:absolute; top:50px; left:0px;}
+
+
+
+.lower-text-introduction {border:1px solid #d8d8d8;}
+.lower-book-index {height:397px; overflow: hidden; border:1px solid #d8d8d8;}
+
+/* 채널예스 기사 영역*/
+.lower-channelYes {height:270px; padding-bottom:30px; border-bottom:1px solid #d8d8d8;}
+.channelYes-text {height:50px; line-height: 30px; padding-bottom: 15px;}
+.channelYes-text > h3 {font-size:20px; font-weight: bold; display: inline-block; margin-right:5px;}
+.channelYes-news {height:190px;}
+.channelYes-article {width:160px; height:180px; margin-right: 35px;}
+.channelYes-article > p > a {color:black; display: block; width:160px; height:113px; position: relative;}
+.channelYes-article > p > a > em {line-height: 16px; font-size: 12px; position:absolute; bottom:0px; left:0px; right:0px; text-align: center;}
+.channelYes-article > p > a > em > img {width:160px; height:113px;}
+.article-content {margin-top: 12px; width:160px; text-align: left;}
+.article-content > p {font-size: 12px;}
+.article-title {word-wrap: break-word; word-break: keep-all; line-height: 17px; overflow: hidden;  max-height: 34px;}
+.article-title > a {color:#333; font-size: 14px; font-weight: bold;}
+.article-date {text-overflow: ellipsis; white-space: nowrap; overflow: hidden; font-size: 12px; margin-top: 6px; line-height: 16px;display: block; color:#999;}
+
+
+/* 상세 이미지 영역 */
+.lower-long-image {padding-bottom:30px; border-bottom:1px solid #d8d8d8;}
+.long-image-text {height:50px; line-height: 30px; padding-bottom:15px;}
+.long-image-h3 {font-size: 20px; font-weight: bold;}
+
+.lower-author-group {border: 1px solid yellow;}
+.lower-author-comment {border: 1px solid green;}
+.lower-recommend-comment {border: 1px solid #d8d8d8;}
+.lower-user-review {border:1px solid blue;}
+.lower-review-comment {border:1px solid skyblue;}
+.lower-buy-related {border:1px solid blueviolet;}
+.lower-delivery {border:1px solid purple;}
